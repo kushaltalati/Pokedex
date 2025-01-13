@@ -21,7 +21,7 @@ const main_types = Object.keys(colors)
 
 const fetchPokemons = async () => {
     for(let i = 1; i <= pokemon_count; i++) {
-        getPokemon(i)
+        await getPokemon(i)
     }
 }
 
